@@ -39,7 +39,7 @@ ini_set("sendmail_from", $sender);
  
 // Invia il messaggio, il quinto parametro "-f$sender" imposta il Return-Path su hosting Linux
 if (mail($to, $subject, $msg, $headers, "-f$sender")) { 
-    echo "Mail inviata correttamente!";
+    echo " <meta http-equiv='refresh' content='5; URL=https://www.edifcernusco.it/'> Mail inviata correttamente! <br> Fra 5 secondi verrai reindirizzato alla pagina principale.";
 } else { 
     echo "Qualcosa è andato storto, la mail non è stata inviata.";
 }

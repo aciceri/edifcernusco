@@ -26,7 +26,7 @@ minify:
 	uglifyjs site/assets/js/util.js > minified/assets/js/util.js	
 	mkdir minified/assets/fonts
 	cp site/assets/fonts/* minified/assets/fonts/
-	html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype site/index.html -o minified/index.html
+	html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype site/index.html -o minified/index.html
 
 deploy:
 	make minify
