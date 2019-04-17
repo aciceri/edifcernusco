@@ -2,7 +2,7 @@ SHELL=bash
 ftp-host = ftp.edifcernusco.it
 ftp-user = 9661326@aruba.it
 ftp-pass = 6dGl5qAc59
-ftp-path = www.edifcernusco.it/demo2/
+ftp-path = www.edifcernusco.it/
 
 server:
 	cd site && python2 -m SimpleHTTPServer 8080 /site/
