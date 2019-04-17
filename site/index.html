@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
 	</head>
 	<body class="is-preload">
 
@@ -188,10 +189,12 @@ src="https://www.google.com/maps/embed/v1/place?q=via%20fatebenefratelli%209%20c
 										<label for="message">Messaggio</label>
 										<textarea name="message" id="message" rows="4"></textarea>
 									</div>
+									
 								</div>
 								<ul class="actions">
 									<li><input type="submit" value="Invia messaggio" /></li>
 								</ul>
+
 							</form>
 							<ul class="contact">
 								<li class="fa-home">
@@ -221,5 +224,29 @@ src="https://www.google.com/maps/embed/v1/place?q=via%20fatebenefratelli%209%20c
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#252e39"
+    },
+    "button": {
+      "background": "#14a7d0"
+    }
+  },
+  "theme": "edgeless",
+  "position": "bottom-right",
+  "content": {
+    "message": "Questo sito utilizza i cookies.",
+    "dismiss": "Va bene!",
+    "link": "Leggi  la policy",
+    "href": "policy/"
+  }
+})});
+</script>
+			
 	</body>
 </html>

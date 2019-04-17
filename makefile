@@ -21,7 +21,7 @@ minify:
 	mkdir minified/assets/css
 	postcss site/assets/css/ --dir minified/assets/css/
 	mkdir minified/assets/js
-	cp site/assets/js/{breakpoints.min.js,browser.min.js,jquery.min.js,jquery.scrollex.min.js} minified/assets/js/
+	cp site/assets/js/{jquery.ihavecookies.min.js,breakpoints.min.js,browser.min.js,jquery.min.js,jquery.scrollex.min.js} minified/assets/js/
 	uglifyjs site/assets/js/main.js > minified/assets/js/main.js
 	uglifyjs site/assets/js/util.js > minified/assets/js/util.js	
 	mkdir minified/assets/fonts
