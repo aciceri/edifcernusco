@@ -33,10 +33,12 @@ contacts = cleandoc(f"""
 La sede della Cooperativa è aperta tutti i Martedì dalle 21:00 alle 23:00, è possibile contattarci telefonicamente in tale orario. Per qualsiasi informazione non esitate a contattarci per e-mail o tramite il modulo presente su questo sito.
 """)
 footer = cleandoc("""
-<ul class="copyright">
-  <li>© Cooperativa Edificatrice Cernuschese "Bruno Ciceri" All rights reserved.</li>
-  <li><a href="privacy-policy.txt">Informativa sulla privacy</a></li>
-  <li>Design: <a href="http://html5up.net">HTML5 UP</a></li></ul>
+<li>© Cooperativa Edificatrice Cernuschese "Bruno Ciceri" All rights reserved.</li>
+<li><a href="privacy-policy.txt">Informativa sulla privacy</a></li>
+<li>Design: <a href="http://html5up.net">HTML5 UP</a></li></ul>
+""")
+disclosure = cleandoc("""
+Questo sito o gli strumenti terzi da questo utilizzati si avvalgono di cookie necessari al funzionamento ed utili alle finalita' illustrate nela cookie policy. <br>Chiudendo questo banner, scorrendo questa pagina, cliccando su un link o proseguendo la navigazione in altra maniera, acconsenti all'uso dei cookie.
 """)
 
 houses = {
@@ -54,6 +56,7 @@ values = {'gmaps_place_id': 'ChIJ3b1qkdK3hkcRe7llxcKzCvM',
           'realizations': realizations,
           'address': address,
           'email': email,
+          'disclosure': disclosure,
           'facebook_page': facebook_page,
           'telephone': telephone,
           'houses':  [(list(filter(lambda kv: url in kv[1], houses.items()))[0][0], url) for url in reduce(chain, houses.values())],

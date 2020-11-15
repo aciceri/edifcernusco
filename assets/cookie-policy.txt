@@ -1,0 +1,96 @@
+Informativa estesa sull’uso dei cookie
+
+Il sito web della Cooperativa Edificatrice Cernuschese Bruno Ciceri utilizza cookie e tecnologie simili per garantire il
+corretto funzionamento delle procedure e migliorare l’esperienza di uso delle applicazioni online. Il presente documento
+fornisce informazioni dettagliate sull’uso dei cookie e di tecnologie similari, su come sono utilizzati dalla Cooperativa e
+su come gestirli.
+
+Definizioni
+
+I cookie sono brevi frammenti di testo (lettere e/o numeri) che permettono al server web di memorizzare sul client (il
+browser) informazioni da riutilizzare nel corso della medesima visita al sito (cookie di sessione) o in seguito, anche a
+distanza di giorni (cookie persistenti). I cookie vengono memorizzati, in base alle preferenze dell’utente, dal singolo
+browser sullo specifico dispositivo utilizzato (computer, tablet, smartphone).
+Tecnologie similari, come, ad esempio, web beacon, GIF trasparenti e tutte le forme di storage locale introdotte con
+HTML5, sono utilizzabili per raccogliere informazioni sul comportamento dell’utente e sull’utilizzo dei servizi.
+Nel seguito di questo documento faremo riferimento ai cookie e a tutte le tecnologie similari utilizzando semplicemente
+il termine “cookie”.
+
+Tipologie di cookie
+
+In base alle caratteristiche e all’utilizzo dei cookie possiamo distinguere diverse categorie:
+Cookie “tecnici” (di analisi e prestazioni). Sono cookie utilizzati per raccogliere e analizzare il traffico e l’utilizzo
+del sito in modo anonimo. Questi cookie, pur senza identificare l’utente, consentono, per esempio, di rilevare se il
+medesimo utente torna a collegarsi in momenti diversi. Permettono inoltre di monitorare il sistema e migliorarne le
+prestazioni e l’usabilità. La disattivazione di tali cookie può essere eseguita senza alcuna perdita di funzionalità.
+Cookie di profilazione. Si tratta di cookie permanenti utilizzati per identificare (in modo anonimo e non) le
+preferenze dell’utente e migliorare la sua esperienza di navigazione. I siti web della Cooperativa non utilizzano cookie di
+questo tipo.
+
+Cookie di terze parti
+
+Visitando un sito web si possono ricevere cookie sia dal sito visitato (“proprietari”), sia da siti gestiti da altre
+organizzazioni (“terze parti”). Un esempio sono i “social plugin” di Facebook, Twitter, Google+ e LinkedIn. Si tratta di
+parti della pagina visitata generate direttamente dai suddetti siti ed integrati nella pagina del sito ospitante. L’utilizzo più
+comune dei social plugin è finalizzato alla condivisione dei contenuti sui social network.
+La presenza di questi plugin comporta la trasmissione di cookie da e verso tutti i siti gestiti da terze parti. La gestione
+delle informazioni raccolte da “terze parti” è disciplinata dalle relative informative cui si prega di fare riferimento. Per
+garantire una maggiore trasparenza e comodità, si riportano qui di seguito gli indirizzi web delle diverse informative e
+delle modalità per la gestione dei cookie.
+Facebook informativa:https://www.facebook.com/help/cookies/
+Facebook (configurazione): accedere al proprio account. Sezione privacy.
+Twitter informative: https://support.twitter.com/articles/20170514
+Twitter (configurazione): https://twitter.com/settings/security
+Linkedin informativa: https://www.linkedin.com/legal/cookie-policy
+Linkedin (configurazione): https://www.linkedin.com/settings/
+Google+ informativa: http://www.google.it/intl/it/policies/technologies/cookies/
+Google+ (configurazione): http://www.google.it/intl/it/policies/technologies/managing/
+Pinterest informativa: https://about.pinterest.com/it/privacy-policy
+Instagram / Intagme.com: http://intagme.com/privacy/
+AddThis informativa: http://www.addthis.com/privacy/privacy-policy
+Google Analytics
+
+I siti web della Cooperativa includono anche componenti trasmesse da Google Analytics, un servizio di analisi del
+traffico web fornito da Google, Inc. (“Google”). Anche in questo caso si tratta di cookie di terze parti raccolti e gestiti in
+modo anonimo per monitorare e migliorare le prestazioni del sito ospite (performance cookie).
+Google Analytics utilizza i “cookie” per raccogliere e analizzare in forma anonima le informazioni sui comportamenti di
+utilizzo dei siti web della Cooperativa (compreso l’indirizzo IP dell’utente). Tali informazioni vengono raccolte da
+Google Analytics, che le elabora allo scopo di redigere report per gli operatori di Legacoop riguardanti le attività sui siti.
+Cooperativa non utilizza (e non consente a terzi di utilizzare) lo strumento di analisi di Google per monitorare o per
+raccogliere informazioni personali di identificazione. Google non associa l’indirizzo IP a nessun altro dato posseduto da
+
+Google né cerca di collegare un indirizzo IP con l’identità di un utente. Google può anche comunicare queste
+informazioni a terzi ove ciò sia imposto dalla legge o laddove tali terzi trattino le suddette informazioni per conto di
+Google.
+Per ulteriori informazioni, si rinvia al link di seguito indicato:
+https://www.google.it/policies/privacy/partners/
+L’utente può disabilitare in modo selettivo l’azione di Google Analytics installando sul proprio browser la componente
+di opt-out fornita da Google. Per disabilitare l’azione di Google Analytics, si rinvia al link di seguito indicato:
+https://tools.google.com/dlpage/gaoptout
+
+Durata dei cookie
+
+Alcuni cookie (cookie di sessione) restano attivi solo fino alla chiusura del browser o all’esecuzione del comando di
+logout. Altri cookie “sopravvivono” alla chiusura del browser e sono disponibili anche in successive visite dell’utente.
+Questi cookie sono detti persistenti e la loro durata è fissata dal server al momento della loro creazione.
+Navigando sulle pagine dei siti web della Cooperativa, si può interagire con siti gestiti da terze parti che possono creare o
+modificare cookie persistenti e di profilazione.
+
+Gestione dei cookie
+
+L’utente può decidere se accettare o meno i cookie utilizzando le impostazioni del proprio browser.
+La disabilitazione totale o parziale dei cookie tecnici non compromette l’utilizzo delle funzionalità del sito.
+L’impostazione può essere definita in modo specifico per i diversi siti e applicazioni web.
+Di seguito le risorse web che illustrano come procedere per ciascuno dei principali browser:
+Chrome: https://support.google.com/chrome/answer/95647?hl=it
+Firefox: https://support.mozilla.org/it/kb/Gestione%20dei%20cookie
+Internet Explorer: http://windows.microsoft.com/it-it/windows7/how-to-manage-cookies-in-internet-explorer-9
+Opera: http://help.opera.com/Windows/10.00/it/cookies.html
+Safari: http://support.apple.com/kb/HT1677?viewlocale=it_IT
+
+Aggiornamento dell’informativa
+
+Legacoop manterrà la presente informativa costantemente aggiornata. La sezione “ULTIMO AGGIORNAMENTO” in
+calce alla pagina indica la data in cui l’informativa è stata aggiornata.
+
+ULTIMO AGGIORNAMENTO: 24/4/2019

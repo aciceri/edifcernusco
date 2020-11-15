@@ -148,6 +148,9 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 		  <label for="message">Messaggio</label>
 		  <textarea name="message" id="message" rows="4"></textarea>
 		</div>
+		<div class="field">
+		  Contattandoci acconsenti al trattamento dei tuoi dati personali come da <a href="privacy-policy.txt">policy</a>.
+		</div>
 	      </div>
 	      <ul class="actions">
 		<li><input type="submit" value="Invia messaggio" /></li>
@@ -213,8 +216,11 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 	      <li class="fa-facebook"><a href="#">{{ facebook }}</a></li>
 	      <!--<li class="fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>-->
 	    </ul>
+	    
 	    <ul class="copyright">
-	      <li>&copy; Cooperativa Edificatrice Cernuschese "Bruno Ciceri" All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+	      <li>© Cooperativa Edificatrice Cernuschese "Bruno Ciceri" All rights reserved.</li>
+	      <li><a href="privacy-policy.txt">Informativa sulla privacy</a></li>
+	      <li>Source code on <a href="https://github.com/aciceri/edifcernusco">GitHub</a></li>
 	    </ul>
 	  </div>
 	</section>
@@ -245,10 +251,10 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 	"theme": "edgeless",
 	"position": "bottom-right",
 	"content": {
-	"message": "Questo sito utilizza i cookies.",
-	"dismiss": "Va bene!",
-	"link": "Leggi  la policy",
-	"href": "policy.txt"
+	    "message": "{{ disclosure }}",
+	    "dismiss": "Accetto",
+	    "link": "Leggi  la policy",
+	    "href": "cookie-policy.txt"
 	}
 	})});
       </script>

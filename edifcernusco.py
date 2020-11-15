@@ -34,7 +34,8 @@ for img in ['atto', 'azione', 'bruno']:
 
 copy(f'{config.images_path}/bg.jpg', f'{config.generated_path}/images')
 
-copy(f'{config.assets_path}/policy.txt', f'{config.generated_path}/policy.txt')
+copy(f'{config.assets_path}/cookie-policy.txt', f'{config.generated_path}/cookie-policy.txt')
+copy(f'{config.assets_path}/privacy-policy.txt', f'{config.generated_path}/privacy-policy.txt')
 copy(f'{config.assets_path}/statuto.pdf', f'{config.generated_path}/statuto.pdf')
 
 copy('_redirects', config.generated_path)
