@@ -1,0 +1,254 @@
+<!DOCTYPE HTML>
+<!--
+Solid State by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Cooperativa Edificatrice Cernuschese "Bruno Ciceri"</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  </head>
+  <body class="is-preload">
+    
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+      
+      <!-- Header -->
+      <header id="header" class="alt">
+	<h1><a href="index.html">Cooperativa Edificatrice Cernuschese "Bruno Ciceri"</a></h1>
+	<!--<nav>
+	    <a href="#menu">Menu</a>
+	    </nav>-->
+      </header>
+
+      <!-- Menu -->
+      <!--<nav id="menu">
+	  <div class="inner">
+	  <h2>Menu</h2>
+	  <ul class="links">
+	  <li><a href="index.html">Home</a></li>
+	  <li><a href="generic.html">Generic</a></li>
+	  <li><a href="elements.html">Elements</a></li>
+	  <li><a href="#">Log In</a></li>
+	  <li><a href="#">Sign Up</a></li>
+	  </ul>
+	  <a href="#" class="close">Close</a>
+	  </div>
+	  </nav>-->
+
+      <!-- Banner -->
+      <section id="banner">
+	<div class="inner">
+	  <!--<div class="logo"><span class="icon fa-diamond"></span></div>-->
+	  <h2>Cooperativa Edificatrice Cernuschese <br class="responsive-break"> "Bruno Ciceri"</h2>
+	  <p>Fondata nel 1908</p>
+	</div>
+      </section>
+
+      <!-- Wrapper -->
+      <section id="wrapper">
+
+	<!-- One -->
+	<section id="one" class="wrapper spotlight style1">
+	  <div class="inner">
+	    <a target="_blank" href="images/bruno.jpg" class="image"><img src="images/bruno-squared.jpg" alt="" /></a>
+	    <div class="content">
+	      <h2 class="major">Chi siamo</h2>
+	      <p>
+		{{ who }}
+	      </p>
+	      <!--<a href="#" class="special">Learn more</a>-->
+	    </div>
+	  </div>
+	</section>
+
+	<!-- Two -->
+	<section id="two" class="wrapper alt spotlight style2">
+	  <div class="inner">
+	    <a href="images/atto.jpg" class="image"><img src="images/atto-squared.jpg" alt="dsda" /></a>
+	    <div class="content">
+	      <h2 class="major">La nostra storia</h2>
+	      <p>
+		{{ history }}
+	      </p>
+	      <a href="statuto.pdf" class="special">Clicca qui per scaricare lo statuto</a>
+	    </div>
+	  </div>
+	</section>
+
+	<!-- Three -->
+	<section id="three" class="wrapper spotlight style3">
+	  <div class="inner">
+	    <a href="images/azione.jpg" class="image"><img src="images/azione-squared.jpg" alt="" /></a>
+	    <div class="content">
+	      <h2 class="major">Un impegno sociale</h2>
+	      <p>
+		{{ commitment }}
+	      </p>
+	      <!--<a href="#" class="special">Learn more</a>-->
+	    </div>
+	  </div>
+	</section>
+
+	<!-- Four -->
+	<section id="four" class="wrapper alt style1">
+	  <div class="inner">
+	    <h2 class="major">Le nostre realizzazioni</h2>
+	    <div class="content">
+              <p>
+		{{ realizations }}
+	      </p>
+	      <section class="features">
+		{% for house in houses %}
+		<article>
+		  <a href="images/houses/{{ house[1] }}" class="image">
+		    <img src="images/houses/{{ house[1] }}" alt="" /></a>
+		  <h3 class="major">{{ house[0] }}</h3>
+		  <!--<p></p>-->
+		  <!--<a href="#" class="special">Learn more</a>-->
+		</article>
+		{% endfor %}
+	      </section>
+	      <!--<ul class="actions">
+		  <li><a href="#" class="button">Browse All</a></li>
+		  </ul>-->
+	    </div>
+	  </section>
+
+	</section>
+
+	<!-- Footer -->
+	<section id="footer">
+	  <div class="inner">
+	    <h2 class="major">Contatti</h2>
+	    <p>
+	      {{ contacts }}
+	    </p>
+	    <p>
+	      <iframe width="100%" height="300px" frameborder="0" style="border:0"
+									src="https://www.google.com/maps/embed/v1/place?q=via%20fatebenefratelli%209%20cernusco&key=AIzaSyCn30Si0qTajtIwZk8ePLfZQ48F1JDe_HQ" allowfullscreen></iframe></p>
+	    <form onsubmit="send(); return false">
+	      <div class="fields">
+		<div class="field">
+		  <label for="name">Nome</label>
+		  <input type="text" name="name" id="name" />
+		</div>
+		<div class="field">
+		  <label for="email">E-mail</label>
+		  <input type="email" name="email" id="email" />
+		</div>
+		<div class="field">
+		  <label for="message">Messaggio</label>
+		  <textarea name="message" id="message" rows="4"></textarea>
+		</div>
+	      </div>
+	      <ul class="actions">
+		<li><input type="submit" value="Invia messaggio" /></li>
+	      </ul>
+	    </form>
+
+	    <script>      
+	      emailjs.init("user_YKU5ZboEUiKgsYLRAZblS");
+
+	      const Toast = Swal.mixin({
+		  toast: true,
+		  position: 'bottom-left',
+		  showConfirmButton: false,
+		  timer: 3000,
+		  timerProgressBar: true,
+		  didOpen: (toast) => {
+		      toast.addEventListener('mouseenter', Swal.stopTimer)
+		      toast.addEventListener('mouseleave', Swal.resumeTimer)
+		  }
+	      })
+	      
+	      function send() {
+		  var templateParams = {
+		      to_name: 'andrea.ciceri@autistici.org',
+		      from_name: document.getElementById('name').value,
+		      email: document.getElementById('email').value,
+		      message: document.getElementById('message').value,
+		  };
+
+		  if (templateParams.from_name == '' || templateParams.email == '' || templateParams.message == '') {
+		      Toast.fire({
+			  icon: 'error',
+			  title: 'Specificare tutti i campi'
+		      });
+		  }
+		  else {
+		      emailjs.send('service_iaw0kat', 'template_agl62yy', templateParams)
+			  .then(function(response) {
+			      Toast.fire({
+				  icon: 'success',
+				  title: 'Email inviata correttamente'
+			      });
+			  }, function(error) {
+			      Toast.fire({
+				  icon: 'error',
+				  title: 'Email non inviata'
+			      });
+			  });
+		  }
+	      }
+	    </script>
+	    
+	    <ul class="contact">
+	      <li class="fa-home">
+		{{ address }}
+	      </li>
+	      <li class="fa-phone">{{ telephone }}</li>
+	      <li class="fa-envelope"><a href="mailto: {{ email }}">{{ email }}</a></li>
+	      <!--<li class="fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>-->
+	      <li class="fa-facebook"><a href="#">{{ facebook }}</a></li>
+	      <!--<li class="fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>-->
+	    </ul>
+	    <ul class="copyright">
+	      <li>&copy; Cooperativa Edificatrice Cernuschese "Bruno Ciceri" All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+	    </ul>
+	  </div>
+	</section>
+
+      </div>
+
+      <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.scrollex.min.js"></script>
+      <script src="assets/js/browser.min.js"></script>
+      <script src="assets/js/breakpoints.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
+
+      <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+      <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+      <script>
+	window.addEventListener("load", function(){
+	window.cookieconsent.initialise({
+	"palette": {
+	"popup": {
+	"background": "#252e39"
+	},
+	"button": {
+	"background": "#14a7d0"
+	}
+	},
+	"theme": "edgeless",
+	"position": "bottom-right",
+	"content": {
+	"message": "Questo sito utilizza i cookies.",
+	"dismiss": "Va bene!",
+	"link": "Leggi  la policy",
+	"href": "policy.txt"
+	}
+	})});
+      </script>
+      
+</body>
+</html>

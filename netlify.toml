@@ -1,0 +1,4 @@
+[build]
+  base = "."
+  publish = "_dist/"
+  command = "python3 eidfcernusco.py"
