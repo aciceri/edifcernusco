@@ -22,7 +22,7 @@ copytree(f'{config.assets_path}', f'{config.generated_path}/assets')
     
 makedirs(f'{config.generated_path}/images/houses')
 for _, images in config.houses.items():
-    for f in images:
+    for f in images + config.next_building_photos:
         filename = f.split('.')[:-1][0]
         src = Image.open(f'{config.images_path}/houses/{f}')
         src.resize((config.img_width, int(config.img_width * src.height / src.width)))\

@@ -18,6 +18,15 @@ La Cooperativa ha una lunga storia alle spalle. Il primo consiglio di Amministra
 commitment = cleandoc('''
 Alla fine degli anni Ottanta l’Edificatrice Cernuschese attuava per la prima volta un altro dei mandati statutari e iniziava a costruire case iniziando a ristrutturare la sede di via Balconi e proseguendo con la costruzione in via Penati 2, in via Ada Negri, in via Boccccio 6, in via De Amicis e in via Monza 132. Oggi (gennaio 2019) è aperto un nuovo cantiere in via Monza. Nell’attuale sede hanno ospitalità varie sedi di partiti di Cernusco e un salone a disposizione di varie associazioni culturali e organizzazioni no-profit.
 ''')
+next_building = cleandoc('''
+La Residenza Ca’ Bianca di prossima costruzione (classe “A”) in Cernusco sul Naviglio, Via Cadore.
+Zona tranquilla e vicino ai principali servizi, piccola palazzina di 9 unità abitative, appartamenti di moderna progettazione.
+Disponibilità di unità al piano terra con giardino, portico e taverna oppure appartamenti con ampie terrazze. Cantine e Box.
+Alcune caratteristiche: riscaldamento a pavimento, isolamento termico acustico, impianto solare termico e fotovoltaico, impianto VMC.
+Possibilita' di mutuo al 50% e Sisma Bonus 110%.
+<br>
+L'uffucio vendite e' aperto tutti i Martedi' sera a partire dalle ore 21 presso la nostra sede.
+''')
 realizations = cleandoc('''
 Le seguenti sono solo alcune delle nostre realizzazioni.
 ''')
@@ -44,9 +53,10 @@ Questo sito o gli strumenti terzi da questo utilizzati si avvalgono di cookie ne
 houses = {
     'VIA DE AMICIS': ['amicis1.jpg', 'amicis2.jpg', 'amicis3.jpg', 'amicis4.jpg'],
     'VIA ADA NEGRI': ['negri.jpg'],
-    'VIA PENATI': ['penati.jpg']
-} 
+    'VIA PENATI': ['penati.jpg'],
+}
 
+next_building_photos = ['bianca1.jpg', 'bianca2.jpg', 'bianca3.jpg']
 
 values = {'gmaps_place_id': 'ChIJ3b1qkdK3hkcRe7llxcKzCvM',
           'gmaps_key': environ['GMAPS_KEY'],
@@ -54,6 +64,8 @@ values = {'gmaps_place_id': 'ChIJ3b1qkdK3hkcRe7llxcKzCvM',
           'history': history,
           'commitment': commitment,
           'realizations': realizations,
+          'next_building': next_building,
+          'next_building_photos': next_building_photos,
           'address': address,
           'email': email,
           'disclosure': disclosure,
